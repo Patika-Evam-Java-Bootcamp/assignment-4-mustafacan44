@@ -1,6 +1,8 @@
 package Thread;
+
 import Services.FileService;
-public class ThreadRead implements Runnable{
+
+public class ThreadRead implements Runnable {
     @Override
     public void run() {
         try {
@@ -13,5 +15,5 @@ public class ThreadRead implements Runnable{
         }
     }
 
-    }
+}
 
